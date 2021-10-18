@@ -1,0 +1,32 @@
+{
+  "1": {
+    "name": "优",
+    "color": "#ffffff",
+    "border": "#fffff"
+  },
+  "2": {
+    "name": "良",
+    "color": "#ffffff",
+    "border": "#fffff"
+  },
+  "3": {
+    "name": "中",
+    "color": "#ffffff",
+    "border": "#fffff"
+  },
+  "4": {
+    "name": "轻度",
+    "color": "#ffffff",
+    "border": "#fffff"
+  },
+  "5": {
+    "name": "中度",
+    "color": "#ffffff",
+    "border": "#fffff"
+  },
+  "6": {
+    "name": "重度",
+    "color": "#ffffff",
+    "border": "#fffff"
+  }
+}

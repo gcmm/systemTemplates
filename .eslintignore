@@ -1,0 +1,9 @@
+config/**/*
+scripts/**/*
+build/**/*
+dist/**/*
+node_modules/**/*
+**/*.config.js
+.storybook
+src/pages/.cache/**/*
+.vscode/**/*

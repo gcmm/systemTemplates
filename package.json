@@ -1,0 +1,48 @@
+{
+  "name": "systemadmin",
+  "version": "1.1.0",
+  "description": "系统管理模板",
+  "main": "index.js",
+  "config": {
+    "env": ""
+  },
+  "scripts": {
+    "start": "pm2 start ./server/start.js --name={{appName}}",
+    "stop": "pm2 delete {{appName}}",
+    "restart": "pm2 restart {{appName}}",
+    "dev": "troyfe dev",
+    "dev:mock": "troyfe dev MOCK=true",
+    "depoly": "troyfe depoly",
+    "build": "troyfe build",
+    "config": {
+      "env": "prod"
+    }
+  },
+  "author": "gcm",
+  "license": "TROY",
+  "devDependencies": {
+    "@ant-design/icons": "^4.0.2",
+    "antd": "^4.2.5",
+    "axios": "^0.21.1",
+    "@babel/polyfill": "^7.12.1",
+    "classnames": "^2.2.6",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react-hooks": "1.7.0",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^9.0.1",
+    "react-container-query": "^0.11.2",
+    "troyfe": "^1.5.3"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0"
+  }
+}
